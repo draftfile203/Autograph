@@ -7,24 +7,18 @@
       font-family: 'Poppins', sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-
 body {
   margin: 0;
   padding: 0;
-  background-image: url('./assets/background2.jpg'); /* Your image path */
+  background-image: url('assets/background2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
-  position: relative; /* Needed for overlay */
+  position: relative;
   min-height: 100vh;
 }
 
-/* Add this for the dark overlay */
+/* Dark overlay */
 body::before {
   content: '';
   position: fixed;
@@ -32,12 +26,20 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust darkness here */
-  z-index: -1; /* Keep it behind content */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
 
+/* Desktop only: enable fixed background */
+@media (min-width: 769px) {
+  body {
+    background-attachment: fixed;
+  }
+}
+
+/* Optional: mobile fallback color */
 @media (max-width: 768px) {
   body {
-    background-attachment: scroll;
+    background-color: #000; /* fallback */
   }
 }
