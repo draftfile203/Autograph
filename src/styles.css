@@ -45,10 +45,3 @@ body::before {
     background-attachment: fixed;
   }
 }
-
-/* Optional: mobile fallback color */
-@media (max-width: 768px) {
-  body {
-    background-color: #000; /* fallback */
-  }
-}
