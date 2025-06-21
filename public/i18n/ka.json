@@ -1,0 +1,130 @@
+{
+  "categories": {
+    "salads": "სალათები",
+    "coldDishes": "ცივი კერძები",
+    "sauces": "სოუსები",
+    "hotDishes": "ცხელი კერძები",
+    "pastries": "ცომეული",
+    "grill": "მაყალი",
+    "coffeeTea": "ყავა - ჩაი",
+    "cocktails": "კოქტეილი",
+    "softDrinks": "გამაგრილებელი სასმელები"
+  },
+  "items": {
+    "salads": {
+      "cucumberTomato": "კიტრი პომიდვრის სალათი",
+      "cucumberTomatoWalnut": "კიტრი პომიდვრის სალათი (ნიგვზით)",
+      "caesarChicken": "ცეზარი ქათმის",
+      "caesarShrimp": "ცეზარი კრევეტები",
+      "greek": "ბერძნული სალათი",
+      "chickenSalad": "ქათმის სალათი",
+      "eggplantCheeseChili": "ბადრიჯნის სალათი მდნარი ყველით ჩილის სოუსით"
+    },
+    "coldDishes": {
+      "eggplantRolls": "ბადრიჯნის რულეტები ნიგვზით",
+      "imeretianCheese": "იმერული ყველი",
+      "sulguni": "სულგუნი",
+      "cheeseAssorted": "ყველის ასორტი",
+      "greensAssorted": "მწვანილის ასორტი",
+      "picklesAssorted": "მჟავის ასორტი",
+      "pkhaliAssorted": "ფხალის ასორტი"
+    },
+    "sauces": {
+      "tomatoSauce": "პომიდვრის საწებელი",
+      "tkemali": "ტყემალი",
+      "kindsvari": "ქინძმარი",
+      "ketchup": "კეჩუბი",
+      "mexicanSauce": "მექსიკურის სოუსი",
+      "sweetSpicySauce": "ტკბილ-ცხარე სოუსი",
+      "bbqSauce": "ბარბექიუს სოუსი"
+    },
+    "hotDishes": {
+      "salmonSteak": "ორაგულის სტეიკი",
+      "kievCutlet": "კიევური კატლეტი",
+      "beefOstri": "საქონლის ოსტრი",
+      "megruliKharcho": "მეგრული ხარჩო",
+      "chkmeruliChicken": "წიწილა შქმერულად",
+      "beefStew": "ხბოს ჩაშუშული",
+      "kharchoSoup": "სუპ-ხარჩო",
+      "chikhirtma": "ჩიხირთმა",
+      "chakapuliBeef": "ჩაქაფული ხბოს",
+      "chakapuliMushroom": "ჩაქაფული სოკოს",
+      "pumpkinSoup": "გოგრის კრემ-სუპი",
+      "mushroomSoup": "სოკოს კრემ-სუპი",
+      "beefRibsAdjika": "ხბოს ნეკნი აჯიკით",
+      "familyPork": "ღორის ოჯახური",
+      "familyBeef": "ხბოს ოჯახური",
+      "familyMushroom": "სოკოს ოჯახური",
+      "roastChicken": "შემწვარი წიწილა (ტაბაკა)",
+      "friedSulguni": "შემწვარი სულგუნი პანკოში",
+      "shrimpPanko": "კრევეტები პანკოში",
+      "musselsWine": "მიდიები ღვინის სოუსით",
+      "pelmeniPot": "პელმენი ქოთანში",
+      "lobioPot": "ლობიო ქოთანში",
+      "risottoShrimp": "რიზოტო კრევეტებით",
+      "carbonara": "კარბონარა",
+      "megruliKupati": "მეგრული კუპატი",
+      "chefBurger": "შეფ-ბურგერი გარნირით"
+    },
+    "pastries": {
+      "pizzaPepperoni": "პიცა პეპერონი",
+      "pizzaMargherita": "პიცა მარგარიტა",
+      "pizzaMixed": "პიცა კომბინირებული",
+      "imeruliKhachapuri": "იმერული ხაჭაპური",
+      "megruliKhachapuri": "მეგრული ხაჭაპური",
+      "royalKhachapuri": "სამეფო ხაჭაპური",
+      "acharuliKhachapuri": "აჭარული ხაჭაპური",
+      "skewerKhachapuri": "ხაჭაპური შამფურზე",
+      "lobiani": "ლობიანი",
+      "chvishtari": "ჭვიშტარი",
+      "mchadi": "მჭადი",
+      "bread": "პური"
+    },
+    "grill": {
+      "porkShashlik": "ღორის მწვადი",
+      "beefShashlik": "ხბოს მწვადი",
+      "chickenShashlik": "ქათმის მწვადი",
+      "porkRibs": "ღორის ნეკნის მწვადი",
+      "beefKebab": "ქაბაბი საქონლის",
+      "chickenKebab": "ქაბაბი ქათმის",
+      "beefKebabSulguni": "საქონლის ქაბაბი სულგუნით",
+      "salmonGrill": "ორაგულის მწვადი",
+      "troutAdjika": "კალმახი აჯიკით",
+      "frenchFries": "კარტოფილი ფრი",
+      "mexicanPotatoes": "კარტოფილი მექსიკურად",
+      "ribeyePepper": "რიბაის სტეიკი წიწაკის სოუსით"
+    },
+    "coffeeTea": {
+      "espresso": "ესპრესო",
+      "cappuccino": "კაპუჩინო",
+      "americano": "ამერიკანო",
+      "icedAmericano": "ცივი ამერიკანო",
+      "icedCoffee": "ცივი ყავა ნაყინით",
+      "blackTea": "შავი ჩაი",
+      "greenTea": "მწვანე ჩაი"
+    },
+    "cocktails": {
+      "ginTonic": "კლასიკური ჯინტონიკი",
+      "aperolSpritz": "აპეროლი სპრიცი",
+      "mojito": "მოჰიტო",
+      "cubaLibre": "კუბა ლიბრე",
+      "negroni": "ნეგრონი",
+      "vodkaEnergy": "ვოდკა ენერჯი",
+      "longIslandTea": "ლონგ აილენდ აისითი",
+      "longIslandEnergy": "ლონგ აილენდ ენერჯი",
+      "margarita": "მარგარიტა",
+      "mimosa": "მიმოზა"
+    },
+    "softDrinks": {
+      "coke": "კოკა კოლა",
+      "cokeZero": "კოკა კოლა უშაქრო",
+      "fanta": "ფანტა",
+      "sprite": "სპრაიტი",
+      "burn": "ენერგეტიკული „ბერნი“",
+      "kapi": "კაპი",
+      "icedTea": "ცივი ჩაი",
+      "schweppes": "შვებს ტონიკი",
+      "water": "წყალი"
+    }
+  }
+}

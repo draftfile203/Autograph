@@ -1,0 +1,66 @@
+.admin-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.meal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.meal-form input, .meal-form button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.meal-form button {
+  width: fit-content;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.meal-form button:hover {
+  background-color: #45a049;
+}
+
+.meal-list {
+  list-style: none;
+  padding: 0;
+  color :white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.meal-list li {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.meal-list img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.info button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}

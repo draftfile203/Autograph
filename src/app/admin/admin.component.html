@@ -1,0 +1,28 @@
+<div class="admin-container">
+  <h2>Manage Meals</h2>
+
+  <form (ngSubmit)="onSubmit()" #mealForm="ngForm" class="meal-form">
+    <input type="text" name="image" [(ngModel)]="meal.image" placeholder="Image URL" required />
+    <input type="text" name="name" [(ngModel)]="meal.name" placeholder="Meal Name" required />
+    <input type="number" name="price" [(ngModel)]="meal.price" placeholder="Price" required />
+    <input type="text" name="description" [(ngModel)]="meal.description" placeholder="Description" required />
+    <input type="text" name="category" [(ngModel)]="meal.category" placeholder="Category" required />
+
+    <button type="submit">{{ editMode ? 'Update' : 'Add' }} Meal</button>
+    <button type="button" *ngIf="editMode" (click)="cancelEdit()">Cancel</button>
+  </form>
+
+  <ul class="meal-list">
+    <li *ngFor="let item of meals">
+      <img [src]="item.image" alt="{{ item.name }}" />
+      <div class="info">
+        <h3>{{ item.name }}</h3>
+        <p>{{ item.description }}</p>
+        <p><strong>Price:</strong> ${{ item.price }}</p>
+        <p><strong>Category:</strong> {{ item.category }}</p>
+        <button (click)="editMeal(item)">Edit</button>
+        <button (click)="deleteMeal(item.id)">Delete</button>
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,724 @@
+header {
+    width: 100%;
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    justify-content: space-between;
+        transform: translateY(-100%); /* Start hidden above the viewport */
+  opacity: 0; /* Fully transparent */
+  animation: slideInFromTop 0.6s ease-out forwards;
+  animation-delay: 0.3s; /* Optional delay */
+  z-index: 1000;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.logo {
+    padding: 8px;
+    margin-left: 60px;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    font-size: 28px;
+    padding: 8px;
+    margin-right: 80px;
+}
+
+.flag {
+  width: 28px;
+  background: none;
+  border: 1px solid black;
+
+  cursor: pointer;
+
+  
+  
+}
+
+.flag svg {
+  border-radius: 4px;
+  border: 2px solid black;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: wheat;
+    transition: 0.5s;cursor: pointer;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+    min-height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.home {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  /* optional spacing */
+  flex-wrap: wrap; /* optional: allows wrapping on small screens */
+  overflow: hidden;
+}
+
+ .slideshow {
+  flex: 1;
+  min-width: 0;
+   opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out; 
+   animation-name: slideFromRight;
+  animation-delay: 0.5s;
+}
+
+
+.hometext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   flex: 1;
+   min-width: 0; 
+    opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  
+   animation-name: slideFromLeft;
+  animation-delay: 0.5s;
+}
+
+.hometext h1 {
+    color: white;
+    font-size: 40px;
+    max-width: 600px;
+      font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+ 
+  margin-bottom: 1rem;
+}
+
+.hometext p {
+    color: white;
+    max-width: 600px;
+}
+
+.time {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 180px;
+
+}
+.clock {
+    display: flex;
+    gap: 10px;
+}
+
+.clock svg {
+    max-width: 40px;
+ 
+}
+.time p{
+   font-size: 16px;
+   width: 200px;
+}
+
+.hometext button {
+    padding: 16px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-right: 180px;
+}
+
+.hometext button:hover {
+    color: wheat;
+    border: 2px solid wheat;
+    transition: 0.5s;
+}
+
+.socialsvg {
+    display: flex;
+    gap: 20px;
+    margin-right: 180px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.socialsvg svg {
+    width: 40px;
+     background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+
+.tiktok {
+    width: 36px !important;
+}
+
+.socialsvg svg:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+   transition: 0.5s;
+}
+
+.phone {
+    display: flex;
+    gap: 10px;
+}
+
+.phone svg {
+    max-width: 30px;
+}
+
+.phone p{
+    width: 120px;
+    font-size: 16px;
+}
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 8px;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 80px;
+    align-items: center;
+    min-height: 80vh;
+    gap: 10px;
+      opacity: 0;
+  transform: translateY(100px);
+  animation: slideFromBottom 0.8s ease-out forwards;
+  animation-delay: 0.8s;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.section-title h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  white-space: nowrap;
+  padding: 0 12px;
+}
+
+.section-title .line {
+  flex: 1;
+  height: 2px;
+  background-color: wheat;
+  width: 100px;
+}
+
+.menuselect {
+  display: flex;
+  gap: 28px;
+}
+
+.menuselect button {
+  font-size: 18px;
+  padding: 8px;
+  color: white;
+  background-color: rgb(37, 42, 43);
+  border: 1px solid rgb(37, 42, 43);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menuselect button:hover {
+  color: wheat;
+  background-color: rgba(37, 42, 43, 0.5);
+  border: 1px solid wheat;
+}
+
+.menuselect button.active {
+  background-color: wheat;
+  color: black;
+  border: 1px solid wheat;
+}
+
+.subCategories {
+  margin-top: 20px;
+}
+
+.menuitems {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row on normal screens */
+  gap: 40px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: start;
+}
+
+.menu-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(37, 42, 43, 0.5);
+  border: 1px solid wheat;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform-origin: center center;
+  overflow: hidden;
+
+  /* Base height when collapsed (enough to hold content except description) */
+  height: auto;
+}
+
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    background-color: rgb(37, 42, 43);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-img {
+  width: 100%;
+  max-height: 180px;
+  border-radius: 8px;
+  
+}
+
+.menu-details h3 {
+  margin: 10px 0 5px;
+  color: white;
+  font-size: 20px;
+  min-height: 6vh;
+}
+
+.menu-details p {
+    color: white;
+}
+
+.price {
+  font-weight: bold;
+  color: wheat;
+  font-size: 20px;
+}
+
+.description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease, opacity 1s ease;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.description.visible {
+  max-height: 400px; /* adjust based on your content */
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.description p {
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+  white-space: normal; /* allow multi-line */
+  word-break: break-word; /* break long words if needed */
+}
+
+.arrow-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  color: #b1abab;
+  display: inline-block;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #333;
+  color: wheat;
+  border: none;
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 10px 15px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  transform: rotate(180deg);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16vh;
+}
+
+footer img{
+     
+    max-width: 300px;
+}
+
+@media (min-width: 1680px) {
+  .home {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1680px) {
+  .home {
+    flex-direction: column;
+    gap: 40px;
+    
+  }
+
+  .slideshow,
+  .hometext {
+    flex: unset;
+   width: 100%;
+  }
+
+  .slideshow {
+    min-height: 40vh;
+    order: 1; 
+  }
+
+  .hometext {
+    order: 2;
+  }
+
+  .hometext h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .hometext p,
+  .hometext button,
+  .time,
+  .socialsvg {
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .socialsvg {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1199px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menuitems {
+  grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .section-title h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:1080px) {
+  .menuselect {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 899px) {
+  header {
+    max-height: 16vh;
+  }
+  
+    .slideshow {
+        min-height: 20vh;
+        max-height: 24vh;
+    }
+  
+ .menu-card {
+    width: 250px;
+    padding: 20px;
+ }
+
+  
+
+  .hometext h1 {
+    font-size: 2rem;
+  }
+
+  .time {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .menu-img {
+    max-height: 150px;
+  }
+
+  
+}
+
+@media (max-width: 740px) {
+    
+    .slideshow {
+        min-height: 10vh;
+        max-height: 20vh;
+    }
+     .menuitems {
+    grid-template-columns: 1fr;
+  }
+  nav {
+    margin-right: 20px;
+  }
+
+  .menu-card h3 {
+    min-height: auto;
+  }
+ 
+}
+
+
+@media (max-width: 599px) {
+  header {
+
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    margin-top: 0;
+    max-width: 150px;
+  }
+  
+
+  .slideshow {
+    min-height: 5vh;
+    max-height: 16vh;
+    
+  }
+
+  
+
+  nav {
+    font-size: 20px;
+  }
+
+  .hometext h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .hometext button {
+    width: 80%;
+  }
+
+  .section-title h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .menu-card {
+    padding: 10px;
+  }
+
+  .back-to-top {
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+  }
+
+  footer img {
+    max-width: 200px;
+  }
+}
+
+/* For screens up to 590px */
+@media (max-width: 590px) {
+  .home {
+    flex-direction: column; /* Stack vertically */
+
+    align-items: center;
+  }
+
+  
+
+  .hometext h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .hometext p {
+    text-align: center;
+  }
+
+  .time, .socialsvg {
+    align-items: center;
+    text-align: center;
+  }
+
+  #menuBtn {
+    padding: 10px;
+  }
+}
+
+/* For screens up to 400px */
+@media (max-width: 480px) {
+  .home {
+    gap: 60px;
+  }
+
+  .slideshow {
+    min-height: 5vh;
+    max-height: 10vh;
+  }
+
+  .menu-card {
+    width: 250px;
+  }
+
+  .hometext h1 {
+    font-size: 1.3rem;
+  }
+
+  .hometext p {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    max-width: 250px;
+  }
+
+  .time svg, .phone svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  #menuBtn {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:400px) {
+    .menu-card {
+        width: 200px;
+    }
+    
+    .section-title {
+        max-width: 200px;
+    }
+}
+@keyframes slideInFromTop {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromBottom {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

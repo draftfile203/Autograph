@@ -1,0 +1,692 @@
+[
+  {
+    "name": "salads.cucumberTomato",
+    "price": 10,
+    "image": "https://example.com/images/cucumberTomato.jpg",
+    "description": "Fresh cucumber and tomato salad",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.cucumberTomatoWalnut",
+    "price": 14,
+    "image": "https://example.com/images/cucumberTomatoWalnut.jpg",
+    "description": "Cucumber and tomato salad with walnuts",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.caesarChicken",
+    "price": 26,
+    "image": "https://example.com/images/caesarChicken.jpg",
+    "description": "Classic Caesar salad with chicken",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.caesarShrimp",
+    "price": 32,
+    "image": "https://example.com/images/caesarShrimp.jpg",
+    "description": "Caesar salad with shrimp",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.greek",
+    "price": 18,
+    "image": "https://example.com/images/greek.jpg",
+    "description": "Traditional Greek salad with feta cheese",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.chickenSalad",
+    "price": 16.5,
+    "image": "https://example.com/images/chickenSalad.jpg",
+    "description": "Chicken salad with vegetables",
+    "category": "Salads"
+  },
+  {
+    "name": "salads.eggplantCheeseChili",
+    "price": 20,
+    "image": "https://example.com/images/eggplantCheeseChili.jpg",
+    "description": "Eggplant salad with melted cheese and chili sauce",
+    "category": "Salads"
+  },
+  {
+    "name": "coldDishes.eggplantRolls",
+    "price": 15,
+    "image": "https://example.com/images/eggplantRolls.jpg",
+    "description": "Eggplant rolls filled with walnut paste",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.imeretianCheese",
+    "price": 11.5,
+    "image": "https://example.com/images/imeretianCheese.jpg",
+    "description": "Traditional Imeretian cheese",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.sulguni",
+    "price": 13.5,
+    "image": "https://example.com/images/sulguni.jpg",
+    "description": "Sulguni cheese from Georgia",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.cheeseAssorted",
+    "price": 28,
+    "image": "https://example.com/images/cheeseAssorted.jpg",
+    "description": "Assorted cheeses",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.greensAssorted",
+    "price": 12,
+    "image": "https://example.com/images/greensAssorted.jpg",
+    "description": "Assortment of fresh greens",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.picklesAssorted",
+    "price": 15,
+    "image": "https://example.com/images/picklesAssorted.jpg",
+    "description": "Assorted pickled vegetables",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "coldDishes.pkhaliAssorted",
+    "price": 21,
+    "image": "https://example.com/images/pkhaliAssorted.jpg",
+    "description": "Assortment of traditional Georgian pkhali",
+    "category": "Cold Dishes"
+  },
+  {
+    "name": "hotDishes.salmonSteak",
+    "price": 43.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Grilled salmon steak",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.kievCutlet",
+    "price": 22.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Classic Kiev cutlet",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.beefOstri",
+    "price": 25,
+    "image": "https://link.to/image.jpg",
+    "description": "Spicy beef stew",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.megruliKharcho",
+    "price": 30,
+    "image": "https://link.to/image.jpg",
+    "description": "Megrelian-style kharcho soup",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.chkmeruliChicken",
+    "price": 35,
+    "image": "https://link.to/image.jpg",
+    "description": "Garlic chicken in milk sauce",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.beefStew",
+    "price": 28,
+    "image": "https://link.to/image.jpg",
+    "description": "Stewed beef with vegetables",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.kharchoSoup",
+    "price": 17.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Traditional beef soup",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.chikhirtma",
+    "price": 16.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Georgian chicken soup with eggs and vinegar",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.chakapuliBeef",
+    "price": 29,
+    "image": "https://link.to/image.jpg",
+    "description": "Beef chakapuli with tarragon and white wine",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.chakapuliMushroom",
+    "price": 20,
+    "image": "https://link.to/image.jpg",
+    "description": "Mushroom chakapuli",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.pumpkinSoup",
+    "price": 16,
+    "image": "https://link.to/image.jpg",
+    "description": "Creamy pumpkin soup",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.mushroomSoup",
+    "price": 16,
+    "image": "https://link.to/image.jpg",
+    "description": "Creamy mushroom soup",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.beefRibsAdjika",
+    "price": 32.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Beef ribs with spicy adjika sauce",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.familyPork",
+    "price": 26,
+    "image": "https://link.to/image.jpg",
+    "description": "Family-style pork dish",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.familyBeef",
+    "price": 28.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Family-style beef dish",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.familyMushroom",
+    "price": 20,
+    "image": "https://link.to/image.jpg",
+    "description": "Family-style mushroom dish",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.roastChicken",
+    "price": 31,
+    "image": "https://link.to/image.jpg",
+    "description": "Tabaka-style roasted chicken",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.friedSulguni",
+    "price": 20,
+    "image": "https://link.to/image.jpg",
+    "description": "Sulguni cheese fried in panko",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.shrimpPanko",
+    "price": 41,
+    "image": "https://link.to/image.jpg",
+    "description": "Shrimp fried in panko",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.musselsWine",
+    "price": 63,
+    "image": "https://link.to/image.jpg",
+    "description": "Mussels in white wine sauce",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.pelmeniPot",
+    "price": 18,
+    "image": "https://link.to/image.jpg",
+    "description": "Pelmeni dumplings served in a pot",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.lobioPot",
+    "price": 12.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Lobio beans cooked in a pot",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.risottoShrimp",
+    "price": 42,
+    "image": "https://link.to/image.jpg",
+    "description": "Risotto with shrimp",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.carbonara",
+    "price": 24,
+    "image": "https://link.to/image.jpg",
+    "description": "Classic carbonara pasta",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.megruliKupati",
+    "price": 26.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Megrelian-style kupati sausage",
+    "category": "Hot Dishes"
+  },
+  {
+    "name": "hotDishes.chefBurger",
+    "price": 45,
+    "image": "https://link.to/image.jpg",
+    "description": "Chef's special burger with garnish",
+    "category": "Hot Dishes"
+  },
+  
+  {
+    "name": "pastries.pizzaPepperoni",
+    "price": 18,
+    "image": "https://link.to/pizzaPepperoni.jpg",
+    "description": "Pepperoni Pizza",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.pizzaMargherita",
+    "price": 16,
+    "image": "https://link.to/pizzaMargherita.jpg",
+    "description": "Margherita Pizza",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.pizzaMixed",
+    "price": 20,
+    "image": "https://link.to/pizzaMixed.jpg",
+    "description": "Mixed Pizza",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.imeruliKhachapuri",
+    "price": 18,
+    "image": "https://link.to/imeruliKhachapuri.jpg",
+    "description": "Imeretian Khachapuri",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.megruliKhachapuri",
+    "price": 22,
+    "image": "https://link.to/megruliKhachapuri.jpg",
+    "description": "Megrelian Khachapuri",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.royalKhachapuri",
+    "price": 25,
+    "image": "https://link.to/royalKhachapuri.jpg",
+    "description": "Royal Khachapuri",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.acharuliKhachapuri",
+    "price": 20,
+    "image": "https://link.to/acharuliKhachapuri.jpg",
+    "description": "Adjarian Khachapuri",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.skewerKhachapuri",
+    "price": 23,
+    "image": "https://link.to/skewerKhachapuri.jpg",
+    "description": "Khachapuri on Skewer",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.lobiani",
+    "price": 12,
+    "image": "https://link.to/lobiani.jpg",
+    "description": "Lobiani",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.chvishtari",
+    "price": 13,
+    "image": "https://link.to/chvishtari.jpg",
+    "description": "Chvishtari",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.mchadi",
+    "price": 7,
+    "image": "https://link.to/mchadi.jpg",
+    "description": "Mchadi",
+    "category": "Pastries"
+  },
+  {
+    "name": "pastries.bread",
+    "price": 5,
+    "image": "https://link.to/bread.jpg",
+    "description": "Bread",
+    "category": "Pastries"
+  },
+
+  {
+    "name": "grill.porkShashlik",
+    "price": 22,
+    "image": "https://link.to/image.jpg",
+    "description": "Pork Shashlik (grilled pork skewers)",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.beefShashlik",
+    "price": 28.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Beef Shashlik (grilled beef skewers)",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.chickenShashlik",
+    "price": 18,
+    "image": "https://link.to/image.jpg",
+    "description": "Chicken Shashlik (grilled chicken skewers)",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.porkRibs",
+    "price": 22,
+    "image": "https://link.to/image.jpg",
+    "description": "Grilled Pork Ribs",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.beefKebab",
+    "price": 18.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Beef Kebab",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.chickenKebab",
+    "price": 17.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Chicken Kebab",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.beefKebabSulguni",
+    "price": 22,
+    "image": "https://link.to/image.jpg",
+    "description": "Beef Kebab with Sulguni Cheese",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.salmonGrill",
+    "price": 35,
+    "image": "https://link.to/image.jpg",
+    "description": "Grilled Salmon",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.troutAdjika",
+    "price": 22,
+    "image": "https://link.to/image.jpg",
+    "description": "Grilled Trout with Adjika Sauce",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.frenchFries",
+    "price": 8,
+    "image": "https://link.to/image.jpg",
+    "description": "French Fries",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.mexicanPotatoes",
+    "price": 13.5,
+    "image": "https://link.to/image.jpg",
+    "description": "Mexican Style Potatoes",
+    "category": "Grill"
+  },
+  {
+    "name": "grill.ribeyePepper",
+    "price": 60,
+    "image": "https://link.to/image.jpg",
+    "description": "Ribeye Steak with Pepper Sauce",
+    "category": "Grill"
+  },
+  {
+    "name": "sauces.tomatoSauce",
+    "price": 4,
+    "image": "https://example.com/images/tomatoSauce.jpg",
+    "description": "Tomato-based sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.tkemali",
+    "price": 4,
+    "image": "https://example.com/images/tkemali.jpg",
+    "description": "Traditional sour plum sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.kindsvari",
+    "price": 4,
+    "image": "https://example.com/images/kindsvari.jpg",
+    "description": "Coriander-flavored sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.ketchup",
+    "price": 4,
+    "image": "https://example.com/images/ketchup.jpg",
+    "description": "Classic ketchup",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.mexicanSauce",
+    "price": 5,
+    "image": "https://example.com/images/mexicanSauce.jpg",
+    "description": "Spicy Mexican sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.sweetSpicySauce",
+    "price": 5,
+    "image": "https://example.com/images/sweetSpicySauce.jpg",
+    "description": "Sweet and spicy sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "sauces.bbqSauce",
+    "price": 5,
+    "image": "https://example.com/images/bbqSauce.jpg",
+    "description": "Barbecue sauce",
+    "category": "Sauces"
+  },
+  {
+    "name": "coffeeTea.espresso",
+    "price": 6,
+    "image": "https://example.com/images/espresso.jpg",
+    "description": "Strong espresso shot",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.cappuccino",
+    "price": 10,
+    "image": "https://example.com/images/cappuccino.jpg",
+    "description": "Cappuccino with milk foam",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.americano",
+    "price": 8,
+    "image": "https://example.com/images/americano.jpg",
+    "description": "Classic Americano coffee",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.icedAmericano",
+    "price": 8,
+    "image": "https://example.com/images/icedAmericano.jpg",
+    "description": "Chilled Americano",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.icedCoffee",
+    "price": 12,
+    "image": "https://example.com/images/icedCoffee.jpg",
+    "description": "Iced coffee with ice cream",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.blackTea",
+    "price": 4,
+    "image": "https://example.com/images/blackTea.jpg",
+    "description": "Hot black tea",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "coffeeTea.greenTea",
+    "price": 4,
+    "image": "https://example.com/images/greenTea.jpg",
+    "description": "Refreshing green tea",
+    "category": "Coffee & Tea"
+  },
+  {
+    "name": "cocktails.ginTonic",
+    "price": 18,
+    "image": "https://example.com/images/ginTonic.jpg",
+    "description": "Classic Gin & Tonic",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.aperolSpritz",
+    "price": 20,
+    "image": "https://example.com/images/aperolSpritz.jpg",
+    "description": "Refreshing Aperol Spritz",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.mojito",
+    "price": 20,
+    "image": "https://example.com/images/mojito.jpg",
+    "description": "Minty Mojito cocktail",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.cubaLibre",
+    "price": 20,
+    "image": "https://example.com/images/cubaLibre.jpg",
+    "description": "Cuba Libre with rum and cola",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.negroni",
+    "price": 20,
+    "image": "https://example.com/images/negroni.jpg",
+    "description": "Classic Negroni cocktail",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.vodkaEnergy",
+    "price": 18,
+    "image": "https://example.com/images/vodkaEnergy.jpg",
+    "description": "Vodka mixed with energy drink",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.longIslandTea",
+    "price": 28,
+    "image": "https://example.com/images/longIslandTea.jpg",
+    "description": "Long Island Iced Tea",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.longIslandEnergy",
+    "price": 30,
+    "image": "https://example.com/images/longIslandEnergy.jpg",
+    "description": "Long Island with energy drink",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.margarita",
+    "price": 20,
+    "image": "https://example.com/images/margarita.jpg",
+    "description": "Classic Margarita cocktail",
+    "category": "Cocktails"
+  },
+  {
+    "name": "cocktails.mimosa",
+    "price": 20,
+    "image": "https://example.com/images/mimosa.jpg",
+    "description": "Mimosa with orange juice and sparkling wine",
+    "category": "Cocktails"
+  },
+  {
+    "name": "softDrinks.coke",
+    "price": 6,
+    "image": "https://example.com/images/coke.jpg",
+    "description": "Coca-Cola",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.cokeZero",
+    "price": 6,
+    "image": "https://example.com/images/cokeZero.jpg",
+    "description": "Coca-Cola Zero Sugar",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.fanta",
+    "price": 6,
+    "image": "https://example.com/images/fanta.jpg",
+    "description": "Orange flavored Fanta",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.sprite",
+    "price": 6,
+    "image": "https://example.com/images/sprite.jpg",
+    "description": "Refreshing Sprite",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.burn",
+    "price": 7,
+    "image": "https://example.com/images/burn.jpg",
+    "description": "Energy Drink 'Burn'",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.kapi",
+    "price": 8,
+    "image": "https://example.com/images/kapi.jpg",
+    "description": "Kapi juice drink",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.icedTea",
+    "price": 8,
+    "image": "https://example.com/images/icedTea.jpg",
+    "description": "Bottled iced tea",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.schweppes",
+    "price": 7,
+    "image": "https://example.com/images/schweppes.jpg",
+    "description": "Schweppes tonic water",
+    "category": "Soft Drinks"
+  },
+  {
+    "name": "softDrinks.water",
+    "price": 4,
+    "image": "https://example.com/images/water.jpg",
+    "description": "Still bottled water",
+    "category": "Soft Drinks"
+  }
+
+
+
+
+
+
+
+
+
+]

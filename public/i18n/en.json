@@ -1,0 +1,130 @@
+{
+  "categories": {
+    "salads": "Salads",
+    "coldDishes": "Cold Dishes",
+    "sauces": "Sauces",
+    "hotDishes": "Hot Dishes",
+    "pastries": "Pastries",
+    "grill": "Grill",
+    "coffeeTea": "Coffee & Tea",
+    "cocktails": "Cocktails",
+    "softDrinks": "Soft Drinks"
+  },
+  "items": {
+    "salads": {
+      "cucumberTomato": "Cucumber and Tomato Salad",
+      "cucumberTomatoWalnut": "Cucumber and Tomato Salad (with Walnuts)",
+      "caesarChicken": "Caesar with Chicken",
+      "caesarShrimp": "Caesar with Shrimp",
+      "greek": "Greek Salad",
+      "chickenSalad": "Chicken Salad",
+      "eggplantCheeseChili": "Eggplant Salad with Melted Cheese and Chili Sauce"
+    },
+    "coldDishes": {
+      "eggplantRolls": "Eggplant Rolls with Walnuts",
+      "imeretianCheese": "Imeretian Cheese",
+      "sulguni": "Sulguni",
+      "cheeseAssorted": "Cheese Assortment",
+      "greensAssorted": "Greens Assortment",
+      "picklesAssorted": "Pickles Assortment",
+      "pkhaliAssorted": "Pkhali Assortment"
+    },
+    "sauces": {
+      "tomatoSauce": "Tomato Sauce",
+      "tkemali": "Tkemali",
+      "kindsvari": "Coriander Sauce",
+      "ketchup": "Ketchup",
+      "mexicanSauce": "Mexican Sauce",
+      "sweetSpicySauce": "Sweet & Spicy Sauce",
+      "bbqSauce": "BBQ Sauce"
+    },
+    "hotDishes": {
+      "salmonSteak": "Salmon Steak",
+      "kievCutlet": "Kiev Cutlet",
+      "beefOstri": "Beef Ostri",
+      "megruliKharcho": "Megrelian Kharcho",
+      "chkmeruliChicken": "Chkmeruli Chicken",
+      "beefStew": "Beef Stew",
+      "kharchoSoup": "Kharcho Soup",
+      "chikhirtma": "Chikhirtma",
+      "chakapuliBeef": "Beef Chakapuli",
+      "chakapuliMushroom": "Mushroom Chakapuli",
+      "pumpkinSoup": "Pumpkin Cream Soup",
+      "mushroomSoup": "Mushroom Cream Soup",
+      "beefRibsAdjika": "Beef Ribs with Adjika",
+      "familyPork": "Family Style Pork",
+      "familyBeef": "Family Style Beef",
+      "familyMushroom": "Family Style Mushroom",
+      "roastChicken": "Roasted Chicken (Tabaka)",
+      "friedSulguni": "Fried Sulguni in Panko",
+      "shrimpPanko": "Shrimp in Panko",
+      "musselsWine": "Mussels in Wine Sauce",
+      "pelmeniPot": "Pelmeni in Pot",
+      "lobioPot": "Lobio in Pot",
+      "risottoShrimp": "Risotto with Shrimp",
+      "carbonara": "Carbonara",
+      "megruliKupati": "Megrelian Kupati",
+      "chefBurger": "Chef’s Burger with Garnish"
+    },
+    "pastries": {
+      "pizzaPepperoni": "Pepperoni Pizza",
+      "pizzaMargherita": "Margherita Pizza",
+      "pizzaMixed": "Mixed Pizza",
+      "imeruliKhachapuri": "Imeretian Khachapuri",
+      "megruliKhachapuri": "Megrelian Khachapuri",
+      "royalKhachapuri": "Royal Khachapuri",
+      "acharuliKhachapuri": "Adjarian Khachapuri",
+      "skewerKhachapuri": "Khachapuri on Skewer",
+      "lobiani": "Lobiani",
+      "chvishtari": "Chvishtari",
+      "mchadi": "Mchadi",
+      "bread": "Bread"
+    },
+    "grill": {
+      "porkShashlik": "Pork Shashlik",
+      "beefShashlik": "Beef Shashlik",
+      "chickenShashlik": "Chicken Shashlik",
+      "porkRibs": "Grilled Pork Ribs",
+      "beefKebab": "Beef Kebab",
+      "chickenKebab": "Chicken Kebab",
+      "beefKebabSulguni": "Beef Kebab with Sulguni",
+      "salmonGrill": "Grilled Salmon",
+      "troutAdjika": "Trout with Adjika",
+      "frenchFries": "French Fries",
+      "mexicanPotatoes": "Mexican Style Potatoes",
+      "ribeyePepper": "Ribeye Steak with Pepper Sauce"
+    },
+    "coffeeTea": {
+      "espresso": "Espresso",
+      "cappuccino": "Cappuccino",
+      "americano": "Americano",
+      "icedAmericano": "Iced Americano",
+      "icedCoffee": "Iced Coffee with Ice Cream",
+      "blackTea": "Black Tea",
+      "greenTea": "Green Tea"
+    },
+    "cocktails": {
+      "ginTonic": "Classic Gin & Tonic",
+      "aperolSpritz": "Aperol Spritz",
+      "mojito": "Mojito",
+      "cubaLibre": "Cuba Libre",
+      "negroni": "Negroni",
+      "vodkaEnergy": "Vodka Energy",
+      "longIslandTea": "Long Island Iced Tea",
+      "longIslandEnergy": "Long Island Energy",
+      "margarita": "Margarita",
+      "mimosa": "Mimosa"
+    },
+    "softDrinks": {
+      "coke": "Coca-Cola",
+      "cokeZero": "Coca-Cola Zero",
+      "fanta": "Fanta",
+      "sprite": "Sprite",
+      "burn": "Energy Drink 'Burn'",
+      "kapi": "Kapi",
+      "icedTea": "Iced Tea",
+      "schweppes": "Schweppes Tonic",
+      "water": "Water"
+    }
+  }
+}
