@@ -151,6 +151,16 @@ main {
   color: white !important;
 }
 
+.phone a,
+.phone a:link,
+.phone a:visited,
+.phone a:hover,
+.phone a:active {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
 .hometext button {
     padding: 16px;
     background: none;
