@@ -147,6 +147,10 @@ main {
    width: 200px;
 }
 
+.phone p {
+  color: white !important;
+}
+
 .hometext button {
     padding: 16px;
     background: none;

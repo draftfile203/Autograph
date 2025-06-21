@@ -21,6 +21,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   position: relative; /* Needed for overlay */
+  min-height: 100vh;
 }
 
 /* Add this for the dark overlay */
@@ -33,4 +34,10 @@ body::before {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6); /* Adjust darkness here */
   z-index: -1; /* Keep it behind content */
+}
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
