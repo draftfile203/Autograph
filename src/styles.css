@@ -1,39 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global reset and base font */
 * {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+/* Body styles */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background: url('./assets/background2.jpg') no-repeat center center;
-  background-size: cover;
-  min-height: 100vh;
   position: relative;
+  min-height: 100vh;
   overflow-x: hidden;
 }
 
-
-/* Dark overlay */
+/* Background image on a fixed pseudo-element to avoid mobile issues */
 body::before {
   content: '';
   position: fixed;
-  top: 0;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('assets/background2.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* keeps image fixed on desktops */
+  z-index: -10;
+  /* Prevent mobile weirdness */
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+-webkit-transform: translateZ(0);
+
+}
+
+/* Overlay for darkening background */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; 
   left: 0;
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: -1;
+  z-index: -5;
+  pointer-events: none;
 }
 
-/* Desktop only: enable fixed background */
-@media (min-width: 769px) {
-  body {
-    background-attachment: fixed;
+/* For older devices that might not support fixed on ::before */
+@media (max-width: 768px) {
+  body::before {
+    background-attachment: scroll;
   }
 }
