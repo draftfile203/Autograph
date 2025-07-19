@@ -13,7 +13,7 @@ import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-transla
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { importProvidersFrom } from '@angular/core';
 
-// 🌐 Required for loading translation files
+//  Required for loading translation files
 export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, '/i18n/', '.json');
 }
@@ -26,7 +26,7 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(withFetch()),
     provideAnimations(),
 
-    // 🌍 ngx-translate providers
+    //  ngx-translate providers
     importProvidersFrom(
       TranslateModule.forRoot({
         loader: {
