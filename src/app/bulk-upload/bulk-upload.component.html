@@ -1,7 +1,6 @@
 <div class="bulk-upload-container">
   <h2>Bulk Upload Menu Items</h2>
   <button (click)="bulkUpload()" [disabled]="loading">Upload All Items</button>
-
   <p *ngIf="loading">Uploading...</p>
   <p *ngIf="message">{{ message }}</p>
 </div>

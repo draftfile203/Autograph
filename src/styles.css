@@ -27,7 +27,7 @@ body::before {
   bottom: 0;
   background: url('assets/background2.jpg') no-repeat center center;
   background-size: cover;
-  background-attachment: fixed; /* keeps image fixed on desktops */
+  background-attachment: fixed;
   z-index: -10;
   /* Prevent mobile weirdness */
   will-change: transform;

@@ -1,46 +1,42 @@
+ 
+/*-----------------------------------------------------------------------HEADERS CSS---------------------------------------------------------------------------------------------------*/
 header {
-    width: 100%;
-    display: flex;
-    height: 16vh;
-    align-items: center;
-    justify-content: space-between;
-        transform: translateY(-100%); /* Start hidden above the viewport */
-  opacity: 0; /* Fully transparent */
+  width: 100%;
+  display: flex;
+  height: 16vh;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
   animation: slideInFromTop 0.6s ease-out forwards;
-  animation-delay: 0.3s; /* Optional delay */
+  animation-delay: 0.3s; 
   z-index: 1000;
 }
 
-
-
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .logo {
-    padding: 8px;
-    margin-left: 60px;
-    max-width: 200px;
-    margin-top: 20px;
+  padding: 8px;
+  margin-left: 60px;
+  max-width: 200px;
+  margin-top: 20px;
 }
 
 nav {
-    display: flex;
-    gap: 20px;
-    font-size: 28px;
-    padding: 8px;
-    margin-right: 80px;
+  display: flex;
+  gap: 20px;
+  font-size: 28px;
+  padding: 8px;
+  margin-right: 80px;
 }
 
 .flag {
   width: 28px;
   background: none;
   border: 1px solid black;
-
   cursor: pointer;
-
-  
-  
 }
 
 .flag svg {
@@ -49,24 +45,27 @@ nav {
 }
 
 nav a {
-    color: white;
+  color: white;
 }
 
 nav a:hover {
-    color: wheat;
-    transition: 0.5s;cursor: pointer;
+  color: wheat;
+  transition: 0.5s;cursor: pointer;
 }
+
+/*-----------------------------------------------------------------------MAIN PAGE CSS---------------------------------------------------------------------------------------------------*/
 
 main {
-   display: flex;
-   flex-direction: column;
-    min-height: 80vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
+ display: flex;
+ flex-direction: column;
+  min-height: 80vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
 }
 
+/*-----------------------------------------------------------------------INTRO SECTION CSS---------------------------------------------------------------------------------------------------*/
 .home {
   display: flex;
   align-items: stretch;
@@ -74,77 +73,75 @@ main {
   height: auto;
   flex-direction: row;
   justify-content: space-between;
-  /* optional spacing */
-  flex-wrap: wrap; /* optional: allows wrapping on small screens */
+  flex-wrap: wrap;
   overflow: hidden;
 }
 
- .slideshow {
+.slideshow {
   flex: 1;
   min-width: 0;
-   opacity: 0;
+  opacity: 0;
   animation-fill-mode: forwards;
   animation-duration: 0.8s;
   animation-timing-function: ease-out; 
-   animation-name: slideFromRight;
+  animation-name: slideFromRight;
   animation-delay: 0.5s;
 }
 
 
 .hometext {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-   flex: 1;
-   min-width: 0; 
-    opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0; 
+  opacity: 0;
   animation-fill-mode: forwards;
   animation-duration: 0.8s;
   animation-timing-function: ease-out;
-  
-   animation-name: slideFromLeft;
+  animation-name: slideFromLeft;
   animation-delay: 0.5s;
 }
 
 .hometext h1 {
-    color: white;
-    font-size: 40px;
-    max-width: 600px;
-      font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 40px;
+  max-width: 600px;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
-  font-size: 3.5rem;
- 
+  font-size: 3.5rem; 
   margin-bottom: 1rem;
 }
 
 .hometext p {
-    color: white;
-    max-width: 600px;
+  color: white;
+  max-width: 600px;
 }
 
 .time {
-    display: flex;
-    margin-top: 20px;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    margin-right: 180px;
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 180px;
 
 }
+
 .clock {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .clock svg {
-    max-width: 40px;
- 
+  max-width: 40px; 
 }
+
 .time p{
-   font-size: 16px;
-   width: 200px;
+ font-size: 16px;
+ width: 200px;
 }
 
 .phone p {
@@ -160,72 +157,67 @@ main {
   text-decoration: none !important;
 }
 
-
 .hometext button {
-    padding: 16px;
-    background: none;
-    color: white;
-    border: 2px solid white;
-    font-size: 16px;
-    margin-top: 20px;
-    border-radius: 4px;
-    margin-right: 180px;
+  padding: 16px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 4px;
+  margin-right: 180px;
 }
 
 .hometext button:hover {
-    color: wheat;
-    border: 2px solid wheat;
-    transition: 0.5s;
+  color: wheat;
+  border: 2px solid wheat;
+  transition: 0.5s;
 }
 
 .socialsvg {
-    display: flex;
-    gap: 20px;
-    margin-right: 180px;
-    margin-top: 10px;
-    cursor: pointer;
+  display: flex;
+  gap: 20px;
+  margin-right: 180px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
-
-
 .socialsvg svg {
-    width: 40px;
-     background-color: rgba(128, 128, 128, 0.3);
-    border-radius: 50%;
-    padding: 4px;
-    
+  width: 40px;
+  background-color: rgba(128, 128, 128, 0.3);
+  border-radius: 50%;
+  padding: 4px;
 }
 
 .tiktok {
-    width: 36px !important;
+  width: 36px !important;
 }
 
 .socialsvg svg:hover {
-    background-color: rgba(128, 128, 128, 0.8);
-   transition: 0.5s;
+  background-color: rgba(128, 128, 128, 0.8);
+  transition: 0.5s;
 }
 
 .phone {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .phone svg {
-    max-width: 30px;
+  max-width: 30px;
 }
 
 .phone p{
-    width: 120px;
-    font-size: 16px;
+  width: 120px;
+  font-size: 16px;
 }
+
 .slideshow {
   position: relative;
   width: 100%;
   height: 500px;
   overflow: hidden;
 }
-
-
 
 .slide {
   position: absolute;
@@ -242,19 +234,21 @@ main {
   z-index: 1;
 }
 
+/*-----------------------------------------------------------------------MENU CSS---------------------------------------------------------------------------------------------------*/
 #menu {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    padding: 80px;
-    align-items: center;
-    min-height: 80vh;
-    gap: 10px;
-      opacity: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 80px;
+  align-items: center;
+  min-height: 80vh;
+  gap: 10px;
+  opacity: 0;
   transform: translateY(100px);
   animation: slideFromBottom 0.8s ease-out forwards;
   animation-delay: 0.8s;
 }
+
 .section-title {
   display: flex;
   align-items: center;
@@ -314,7 +308,7 @@ main {
 
 .menuitems {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 per row on normal screens */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 40px;
   margin-top: 40px;
   justify-content: center;
@@ -333,17 +327,14 @@ main {
   transition: transform 0.4s ease, opacity 0.4s ease;
   transform-origin: center center;
   overflow: hidden;
-
-  /* Base height when collapsed (enough to hold content except description) */
   height: auto;
 }
 
-
 .menu-card:hover {
-    transform: translateY(-5px);
-    background-color: rgb(37, 42, 43);
-    cursor: pointer;
-    transition: 0.3s;
+  transform: translateY(-5px);
+  background-color: rgb(37, 42, 43);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .menu-img {
@@ -361,7 +352,7 @@ main {
 }
 
 .menu-details p {
-    color: white;
+  color: white;
 }
 
 .price {
@@ -379,7 +370,7 @@ main {
 }
 
 .description.visible {
-  max-height: 400px; /* adjust based on your content */
+  max-height: 400px;
   opacity: 1;
   margin-top: 10px;
 }
@@ -388,8 +379,8 @@ main {
   color: white;
   margin: 0;
   line-height: 1.5;
-  white-space: normal; /* allow multi-line */
-  word-break: break-word; /* break long words if needed */
+  white-space: normal; 
+  word-break: break-word; 
 }
 
 .arrow-icon {
@@ -431,32 +422,37 @@ main {
   pointer-events: auto;
 }
 
-
+/*-----------------------------------------------------------------------FOOTER CSS---------------------------------------------------------------------------------------------------*/
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 16vh;
 }
 
 footer img{
-     
-    max-width: 300px;
+  max-width: 300px;
 }
 
+/*-----------------------------------------------------------------------RESPONSIVE CSS---------------------------------------------------------------------------------------------------*/
+
+/* For screens down to 1680px */
 @media (min-width: 1680px) {
+
   .home {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
   }
+
 }
 
+/* For screens up to 1680px */
 @media (max-width: 1680px) {
+
   .home {
     flex-direction: column;
     gap: 40px;
-    
   }
 
   .slideshow,
@@ -493,7 +489,9 @@ footer img{
   }
 }
 
+/* For screens up to 1200px */
 @media (max-width: 1199px) {
+
   nav {
     flex-direction: column;
     align-items: center;
@@ -502,22 +500,27 @@ footer img{
 
   .menuitems {
   grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+  gap: 20px;
   }
 
   .section-title h1 {
     font-size: 2rem;
   }
+
 }
 
 @media (max-width:1080px) {
+
   .menuselect {
     flex-wrap: wrap;
     justify-content: center;
   }
+
 }
 
+/* For screens up to 900px */
 @media (max-width: 899px) {
+
   header {
     max-height: 16vh;
   }
@@ -548,18 +551,20 @@ footer img{
     max-height: 150px;
   }
 
-  
 }
 
+/* For screens up to 740px */
 @media (max-width: 740px) {
     
-    .slideshow {
-        min-height: 10vh;
-        max-height: 20vh;
-    }
-     .menuitems {
+  .slideshow {
+    min-height: 10vh;
+    max-height: 20vh;
+  }
+ 
+  .menuitems {
     grid-template-columns: 1fr;
   }
+
   nav {
     margin-right: 20px;
   }
@@ -570,10 +575,10 @@ footer img{
  
 }
 
-
+/* For screens up to 690px */
 @media (max-width: 599px) {
+  
   header {
-
     height: auto;
     padding: 10px 0;
   }
@@ -584,14 +589,10 @@ footer img{
     max-width: 150px;
   }
   
-
   .slideshow {
     min-height: 5vh;
-    max-height: 16vh;
-    
+    max-height: 16vh; 
   }
-
-  
 
   nav {
     font-size: 20px;
@@ -624,17 +625,16 @@ footer img{
   footer img {
     max-width: 200px;
   }
+
 }
 
 /* For screens up to 590px */
 @media (max-width: 590px) {
-  .home {
-    flex-direction: column; /* Stack vertically */
 
+  .home {
+    flex-direction: column;
     align-items: center;
   }
-
-  
 
   .hometext h1 {
     font-size: 1.6rem;
@@ -653,10 +653,12 @@ footer img{
   #menuBtn {
     padding: 10px;
   }
+
 }
 
-/* For screens up to 400px */
+/* For screens up to 480px */
 @media (max-width: 480px) {
+
   .home {
     gap: 60px;
   }
@@ -690,17 +692,24 @@ footer img{
   #menuBtn {
     font-size: 1rem;
   }
+
 }
 
+/* For screens up to 400px */
 @media (max-width:400px) {
-    .menu-card {
-        width: 200px;
-    }
+
+  .menu-card {
+    width: 200px;
+  }
     
-    .section-title {
-        max-width: 200px;
-    }
+  .section-title {
+    max-width: 200px;
+  }
+
 }
+
+/*-----------------------------------------------------------------------KEYFRAMES FOR ANIMATIONS----------------------------------------------------------------------------------------------*/
+
 @keyframes slideInFromTop {
   to {
     transform: translateY(0);
